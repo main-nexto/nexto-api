@@ -1,0 +1,29 @@
+{
+  "name": "nexto-courses-api",
+  "version": "0.0.1",
+  "description": "Nexto Courses API.",
+  "author": "Labrador Team",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "NODE_ENV=dev node index.js",
+    "start-test": "NODE_ENV=test node index.js",
+    "start-prod": "NODE_ENV=prod node index.js"
+  },
+  "keywords": [
+    "nexto"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "connect": "^3.2.0",
+    "cors": "^2.8.3",
+    "dotenv": "^5.0.1",
+    "js-yaml": "^3.3.0",
+    "lowdb": "^0.16.2",
+    "swagger-tools": "^0.10.1",
+    "win-node-env": "0.6.1"
+  }
+}

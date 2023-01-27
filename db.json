@@ -1,0 +1,30 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Migrando para UX Design",
+      "author": "UX group",
+      "imagePath": "images/course1.png"
+    },
+    {
+      "id": "2",
+      "name": "TREINOS SÃOMIGUELITOS | PARA MULHERES",
+      "author": "Alex Vargas",
+      "imagePath": "images/course2.png"
+    }
+  ],
+  "communities": [
+    {
+      "id": "1",
+      "name": "Nexto",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "2",
+      "name": "GRUPO TREINOS SÃOMIGUELITOS | PARA MULHERES",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    }
+  ]
+}
