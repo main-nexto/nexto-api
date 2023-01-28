@@ -11,6 +11,54 @@
       "name": "TREINOS SÃOMIGUELITOS | PARA MULHERES",
       "author": "Alex Vargas",
       "imagePath": "images/course2.png"
+    },
+    {
+      "id": "3",
+      "name": "Curso 3",
+      "author": "UX group",
+      "imagePath": "images/course1.png"
+    },
+    {
+      "id": "4",
+      "name": "Curso 4",
+      "author": "Alex Vargas",
+      "imagePath": "images/course2.png"
+    },
+    {
+      "id": "5",
+      "name": "Curso 5",
+      "author": "UX group",
+      "imagePath": "images/course1.png"
+    },
+    {
+      "id": "6",
+      "name": "Curso 6",
+      "author": "Alex Vargas",
+      "imagePath": "images/course2.png"
+    },
+    {
+      "id": "7",
+      "name": "Curso 7",
+      "author": "UX group",
+      "imagePath": "images/course1.png"
+    },
+    {
+      "id": "8",
+      "name": "Curso 8",
+      "author": "Alex Vargas",
+      "imagePath": "images/course2.png"
+    },
+    {
+      "id": "9",
+      "name": "Curso 9",
+      "author": "UX group",
+      "imagePath": "images/course1.png"
+    },
+    {
+      "id": "10",
+      "name": "Curso 10",
+      "author": "Alex Vargas",
+      "imagePath": "images/course2.png"
     }
   ],
   "communities": [
@@ -23,6 +71,78 @@
     {
       "id": "2",
       "name": "GRUPO TREINOS SÃOMIGUELITOS | PARA MULHERES",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "3",
+      "name": "Comunidade 3",
+      "author": "Comunidade3",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "4",
+      "name": "Comunidade 4",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "5",
+      "name": "Comunidade 5",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "6",
+      "name": "Comunidade 6",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "7",
+      "name": "Comunidade 7",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "8",
+      "name": "Comunidade 8",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "9",
+      "name": "Comunidade 9",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "10",
+      "name": "Comunidade 10",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "11",
+      "name": "Comunidade 11",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "12",
+      "name": "Comunidade 12",
+      "author": "Tiago Feijo",
+      "imageUrl": "images/community2.png"
+    },
+    {
+      "id": "13",
+      "name": "Comunidade 13",
+      "author": "Alex Vargas",
+      "imagePath": "images/community1.png"
+    },
+    {
+      "id": "14",
+      "name": "Comunidade 14",
       "author": "Tiago Feijo",
       "imageUrl": "images/community2.png"
     }
