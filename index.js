@@ -1,8 +1,6 @@
 'use strict';
-
 var express = require('express');
 var path = require('path');
-var app = require('connect')();
 var http = require('http');
 var cors = require('cors');
 var swaggerTools = require('swagger-tools');
@@ -10,6 +8,8 @@ var jsyaml = require('js-yaml');
 var fs = require('fs')
 var config = require('./config/config.js').get(process.env.NODE_ENV);
 var serverconf = require('./config/serverconf');
+
+var app = express();
 
 // swaggerRouter configuration
 var options = {
