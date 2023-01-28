@@ -4,7 +4,6 @@ info:
   title: "Nexto Courses"
   description: Nexto Courses API.
   version: 0.0.1
-host: "localhost:8080"
 basePath: "/"
 schemes:
 - "http"
