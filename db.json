@@ -3,148 +3,144 @@
     {
       "id": "1",
       "name": "Migrando para UX Design",
-      "author": "UX group",
-      "imagePath": "images/course1.png"
+      "author": "Joao Paulo",
+      "description": "O Intensivo de Marketing Digital é um curso completo que ensina empreendedores ou pessoas que buscam qualificação em marketing digital, são vídeos, que ensinam passo a passo, com riqueza de detalhes, como ter resultados na internet.",
+      "imagePath": "images/course/1/bg.png",
+      "avatarPath": "images/course/1/avatar.png",
+      "tags": ["Inovação", "Tecnologia"],
+      "duration": 20,
+      "publishDate": 1648352435,
+      "price": 0,
+      "status": 0
     },
     {
       "id": "2",
-      "name": "TREINOS SÃOMIGUELITOS | PARA MULHERES",
-      "author": "Alex Vargas",
-      "imagePath": "images/course2.png"
+      "name": "TREINOS SÃOMIGUELITO| PARA MULHERES",
+      "author": "Miguel Fernandes da Silva Alves",
+      "description": "São mais de 200 exercícios além de planilhas de treinamentos elaboradas e divididas por níveis mensalmente. Treinos para serem feitos em casa e na academia com diversas aulas extras de bônus. Quero convidar você para vir comigo nesse projeto que vai mudar nossas vidas!",
+      "imagePath": "images/course/2/bg.png",
+      "avatarPath": "images/course/2/avatar.png",
+      "tags": ["Saúde", "Esportes"],
+      "duration": 5,
+      "publishDate": 1678634458,
+      "price": 30.00,
+      "status": 0
     },
     {
       "id": "3",
-      "name": "Curso 3",
-      "author": "UX group",
-      "imagePath": "images/course1.png"
+      "name": "UX Design | TheStarter",
+      "author": "THESTARTER, LDA",
+      "description": "Aprende realmente na prática UX Design, através de um acompanhamento personalizado e a construção de projetos práticos. Explora o mundo do UX Design, aprendendo tudo desde os fundamentos básicos da User Experience, Research, até à construção de wireframes e protótipos para testagem com utilizadores.‍Este desafio é indicado para iniciantes, e vai dar-te todas as bases necessárias para começares a tua carreira nesta área tão importante e procurada pelas empresas.",
+      "imagePath": "images/course/3/bg.png",
+      "avatarPath": "images/course/3/avatar.png",
+      "tags": ["Design"],
+      "duration": 800,
+      "publishDate": 1642000858,
+      "price": 0,
+      "status": 0
     },
     {
       "id": "4",
-      "name": "Curso 4",
-      "author": "Alex Vargas",
-      "imagePath": "images/course2.png"
+      "name": "Course 4",
+      "author": "Nexto",
+      "description": "Curso Nexto",
+      "imagePath": "images/course/4/bg.png",
+      "avatarPath": "images/course/4/avatar.png",
+      "tags": ["Design"],
+      "duration": 800,
+      "publishDate": 1642000858,
+      "price": 0,
+      "status": 0
     },
     {
       "id": "5",
-      "name": "Curso 5",
-      "author": "UX group",
-      "imagePath": "images/course1.png"
+      "name": "Course 5",
+      "author": "Course 5",
+      "description": "Curso Nexto",
+      "imagePath": "images/course/5/bg.png",
+      "avatarPath": "images/course/5/avatar.png",
+      "tags": ["Tecnologia"],
+      "duration": 0,
+      "publishDate": 1642000858,
+      "price": 0,
+      "status": 0
     },
     {
       "id": "6",
-      "name": "Curso 6",
-      "author": "Alex Vargas",
-      "imagePath": "images/course2.png"
+      "name": "Course 6",
+      "author": "Course 6",
+      "description": "Curso Nexto",
+      "imagePath": "images/course/6/bg.png",
+      "avatarPath": "images/course/6/avatar.png",
+      "tags": ["Artes"],
+      "duration": 0,
+      "publishDate": 1642000858,
+      "price": 0,
+      "status": 0
     },
     {
       "id": "7",
-      "name": "Curso 7",
-      "author": "UX group",
-      "imagePath": "images/course1.png"
-    },
-    {
-      "id": "8",
-      "name": "Curso 8",
-      "author": "Alex Vargas",
-      "imagePath": "images/course2.png"
-    },
-    {
-      "id": "9",
-      "name": "Curso 9",
-      "author": "UX group",
-      "imagePath": "images/course1.png"
-    },
-    {
-      "id": "10",
-      "name": "Curso 10",
-      "author": "Alex Vargas",
-      "imagePath": "images/course2.png"
+      "name": "Course 7",
+      "author": "Course 7",
+      "description": "Curso Nexto",
+      "imagePath": "images/course/7/bg.png",
+      "avatarPath": "images/course/7/avatar.png",
+      "tags": ["Design"],
+      "duration": 0,
+      "publishDate": 1642000858,
+      "price": 0,
+      "status": 0
     }
   ],
   "communities": [
     {
       "id": "1",
       "name": "Nexto",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
+      "author": "Miguel Gaia",
+      "description": "Comunidade da Equipe Nexto",
+      "avatarPath": "images/community/1/avatar.png"
     },
     {
       "id": "2",
-      "name": "GRUPO TREINOS SÃOMIGUELITOS | PARA MULHERES",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
+      "name": "Fórmula Negócio Online",
+      "author": "Alex Vargas",
+      "avatarPath": "images/community/2/avatar.png"
     },
     {
       "id": "3",
       "name": "Comunidade 3",
-      "author": "Comunidade3",
-      "imagePath": "images/community1.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/3/avatar.png"
     },
     {
       "id": "4",
       "name": "Comunidade 4",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/4/avatar.png"
     },
     {
       "id": "5",
       "name": "Comunidade 5",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/5/avatar.png"
     },
     {
       "id": "6",
       "name": "Comunidade 6",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/6/avatar.png"
     },
     {
       "id": "7",
       "name": "Comunidade 7",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/7/avatar.png"
     },
     {
       "id": "8",
       "name": "Comunidade 8",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
-    },
-    {
-      "id": "9",
-      "name": "Comunidade 9",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
-    },
-    {
-      "id": "10",
-      "name": "Comunidade 10",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
-    },
-    {
-      "id": "11",
-      "name": "Comunidade 11",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
-    },
-    {
-      "id": "12",
-      "name": "Comunidade 12",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
-    },
-    {
-      "id": "13",
-      "name": "Comunidade 13",
-      "author": "Alex Vargas",
-      "imagePath": "images/community1.png"
-    },
-    {
-      "id": "14",
-      "name": "Comunidade 14",
-      "author": "Tiago Feijo",
-      "imageUrl": "images/community2.png"
+      "author": "Nexto",
+      "avatarPath": "images/community/8/avatar.png"
     }
   ]
 }
