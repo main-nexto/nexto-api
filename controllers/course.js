@@ -27,3 +27,7 @@ module.exports.putCoursesById = function putCoursesById (req, res, next) {
 module.exports.deleteCoursesById = function deleteCoursesById (req, res, next) {
   courseService.deleteCoursesById(req.swagger.params, res, next);
 };
+
+module.exports.joinCourse = function joinCourse (req, res, next) {
+  courseService.joinCourse(req.swagger.params, res, next);
+};

@@ -1,6 +1,10 @@
 'use strict';
 var low	= require('lowdb');
 const db = low('db.json');
+const CourseStatus = {
+  NotPurchased: 0,
+  Purchased: 1
+}
 
 /**
  * Get All courses
@@ -68,7 +72,7 @@ exports.putCoursesById = function(args, res, next) {
   res.statusCode = 201;
   var result = db.get('courses')
   	.find({ id: args.id.value })
-	  .assign({ name: args.course.value.name})
+	  .assign(args.course.value)
 	  .value()
   res.end(JSON.stringify(result));
 }
@@ -89,4 +93,23 @@ exports.deleteCoursesById = function(args, res, next) {
 	  .remove({ id: args.id.value })
 	  .value()
   res.end();
+}
+
+/**
+ * Join Course
+ * @param args id (String) 
+ * @param res course (Course) 
+**/
+exports.joinCourse = function(args, res, next) {
+  if(args.id.value === '') {
+  	 res.statusCode = 500;
+  	 res.end('ID Required');
+  }
+  res.setHeader('Content-Type', 'application/json');
+  res.statusCode = 201;
+  var result = db.get('courses')
+  	.find({ id: args.id.value })
+	  .assign({ status: CourseStatus.Purchased})
+	  .value()
+  res.end(JSON.stringify(result));
 }
