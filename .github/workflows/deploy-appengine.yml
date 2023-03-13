@@ -1,0 +1,34 @@
+
+name: Deploy App Engine
+on:
+  workflow_dispatch:
+
+
+jobs:
+  job_id:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+  build:
+    runs-ons: ubuntu-latest
+
+    steps:
+
+      - name: Setup Repo
+        uses: actions/checkout@v3
+      
+      - id: 'Authenticate_to_Google_Cloud'
+        uses: 'google-github-actions/auth@v1.0.0'
+        with:
+          token_format: "access_token"
+          create_credentials_file: true
+          activate_credentials_file: true
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_ID }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+
+      - id: 'deploy'
+        uses: 'google-github-actions/deploy-appengine@v1'
+        with:
+          project_id: ${{ secrets.GCP_PROJECT }}
+          deliverables: './app.yaml'
