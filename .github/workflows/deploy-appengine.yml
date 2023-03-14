@@ -11,7 +11,7 @@ jobs:
       id-token: 'write'
 
   build:
-    runs-ons: ubuntu-latest
+    runs-ons: [self-hosted, linux, labrador]
 
     steps:
 
