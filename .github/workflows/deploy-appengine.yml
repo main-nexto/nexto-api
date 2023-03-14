@@ -11,7 +11,7 @@ jobs:
       id-token: 'write'
  
     name: App Deploy
-    runs-ons: [self-hosted, linux, labrador]
+    runs-on: [self-hosted, linux, labrador]
     steps:
 
       - name: Setup Repo
