@@ -9,10 +9,9 @@ jobs:
     permissions:
       contents: 'read'
       id-token: 'write'
-
-  build:
+ 
+    name: App Deploy
     runs-ons: [self-hosted, linux, labrador]
-
     steps:
 
       - name: Setup Repo
