@@ -20,10 +20,7 @@ jobs:
       - id: 'Authenticate_to_Google_Cloud'
         uses: 'google-github-actions/auth@v1.0.0'
         with:
-          create_credentials_file: true
-          activate_credentials_file: true
-          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_ID }}
-          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+          credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
 
       - id: 'deploy'
         uses: 'google-github-actions/deploy-appengine@v1'
