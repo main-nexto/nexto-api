@@ -20,7 +20,6 @@ jobs:
       - id: 'Authenticate_to_Google_Cloud'
         uses: 'google-github-actions/auth@v1.0.0'
         with:
-          token_format: "access_token"
           create_credentials_file: true
           activate_credentials_file: true
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_ID }}
