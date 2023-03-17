@@ -5,8 +5,8 @@
       "name": "Migrando para UX Design",
       "author": "Joao Paulo",
       "description": "O Intensivo de Marketing Digital é um curso completo que ensina empreendedores ou pessoas que buscam qualificação em marketing digital, são vídeos, que ensinam passo a passo, com riqueza de detalhes, como ter resultados na internet.",
-      "imagePath": "images/course/1/bg.png",
-      "avatarPath": "images/course/1/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/1/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/1/avatar.png",
       "tags": ["Inovação", "Tecnologia"],
       "duration": 20,
       "publishDate": 1648352435,
@@ -18,8 +18,8 @@
       "name": "TREINOS SÃOMIGUELITO| PARA MULHERES",
       "author": "Miguel Fernandes da Silva Alves",
       "description": "São mais de 200 exercícios além de planilhas de treinamentos elaboradas e divididas por níveis mensalmente. Treinos para serem feitos em casa e na academia com diversas aulas extras de bônus. Quero convidar você para vir comigo nesse projeto que vai mudar nossas vidas!",
-      "imagePath": "images/course/2/bg.png",
-      "avatarPath": "images/course/2/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/2/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/2/avatar.png",
       "tags": ["Saúde", "Esportes"],
       "duration": 5,
       "publishDate": 1678634458,
@@ -31,8 +31,8 @@
       "name": "UX Design | TheStarter",
       "author": "THESTARTER, LDA",
       "description": "Aprende realmente na prática UX Design, através de um acompanhamento personalizado e a construção de projetos práticos. Explora o mundo do UX Design, aprendendo tudo desde os fundamentos básicos da User Experience, Research, até à construção de wireframes e protótipos para testagem com utilizadores.‍Este desafio é indicado para iniciantes, e vai dar-te todas as bases necessárias para começares a tua carreira nesta área tão importante e procurada pelas empresas.",
-      "imagePath": "images/course/3/bg.png",
-      "avatarPath": "images/course/3/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/3/bg.png",
+      "avatarPath": "ihttps://storage.googleapis.com/nexto/images/course/3/avatar.png",
       "tags": ["Design"],
       "duration": 800,
       "publishDate": 1642000858,
@@ -44,8 +44,8 @@
       "name": "Course 4",
       "author": "Nexto",
       "description": "Curso Nexto",
-      "imagePath": "images/course/4/bg.png",
-      "avatarPath": "images/course/4/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/4/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/4/avatar.png",
       "tags": ["Design"],
       "duration": 800,
       "publishDate": 1642000858,
@@ -57,8 +57,8 @@
       "name": "Course 5",
       "author": "Course 5",
       "description": "Curso Nexto",
-      "imagePath": "images/course/5/bg.png",
-      "avatarPath": "images/course/5/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/5/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/5/avatar.png",
       "tags": ["Tecnologia"],
       "duration": 0,
       "publishDate": 1642000858,
@@ -70,8 +70,8 @@
       "name": "Course 6",
       "author": "Course 6",
       "description": "Curso Nexto",
-      "imagePath": "images/course/6/bg.png",
-      "avatarPath": "images/course/6/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/6/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/6/avatar.png",
       "tags": ["Artes"],
       "duration": 0,
       "publishDate": 1642000858,
@@ -83,8 +83,8 @@
       "name": "Course 7",
       "author": "Course 7",
       "description": "Curso Nexto",
-      "imagePath": "images/course/7/bg.png",
-      "avatarPath": "images/course/7/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/7/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/7/avatar.png",
       "tags": ["Design"],
       "duration": 0,
       "publishDate": 1642000858,
@@ -98,49 +98,49 @@
       "name": "Nexto",
       "author": "Miguel Gaia",
       "description": "Comunidade da Equipe Nexto",
-      "avatarPath": "images/community/1/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/1/avatar.png"
     },
     {
       "id": "2",
       "name": "Fórmula Negócio Online",
       "author": "Alex Vargas",
-      "avatarPath": "images/community/2/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/2/avatar.png"
     },
     {
       "id": "3",
       "name": "Comunidade 3",
       "author": "Nexto",
-      "avatarPath": "images/community/3/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/3/avatar.png"
     },
     {
       "id": "4",
       "name": "Comunidade 4",
       "author": "Nexto",
-      "avatarPath": "images/community/4/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/4/avatar.png"
     },
     {
       "id": "5",
       "name": "Comunidade 5",
       "author": "Nexto",
-      "avatarPath": "images/community/5/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/5/avatar.png"
     },
     {
       "id": "6",
       "name": "Comunidade 6",
       "author": "Nexto",
-      "avatarPath": "images/community/6/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/6/avatar.png"
     },
     {
       "id": "7",
       "name": "Comunidade 7",
       "author": "Nexto",
-      "avatarPath": "images/community/7/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/7/avatar.png"
     },
     {
       "id": "8",
       "name": "Comunidade 8",
       "author": "Nexto",
-      "avatarPath": "images/community/8/avatar.png"
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/8/avatar.png"
     }
   ]
 }
