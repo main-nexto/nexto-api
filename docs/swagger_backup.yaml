@@ -187,10 +187,94 @@ paths:
         404:
           description: "Community missing"
       x-swagger-router-controller: "community"
+  /auth:
+    get:
+      operationId: "getAllUsers"
+      parameters:
+      - name: "name"
+        in: "query"
+        description: "name of the user."
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Get all users"
+      x-swagger-router-controller: "user"
+    post:
+      operationId: "postUser"
+      parameters:
+      - in: "body"
+        name: "community"
+        description: "Name of the community to save"
+        required: false
+        schema:
+          $ref: "#/definitions/Community"
+      responses:
+        201:
+          description: "Community was correctly created"
+      x-swagger-router-controller: "community"
+  /communities/{id}:
+    get:
+      operationId: "getCommunitiesById"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "Id of the community."
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "Community was fetched correctly"
+        404:
+          description: "Community wasn't found"
+      x-swagger-router-controller: "community"
+    put:
+      operationId: "putCommunitiesById"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "Id of the community."
+        required: true
+        type: "string"
+      - in: "body"
+        name: "community"
+        description: "Name of the community to replace"
+        required: false
+        schema:
+          $ref: "#/definitions/Community"
+      responses:
+        200:
+          description: "Community was replaced."
+        500:
+          description: "Internal server error"
+      x-swagger-router-controller: "community"
+    delete:
+      operationId: "deleteCommunitiesById"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "Id of the community."
+        required: true
+        type: "string"
+      - in: "body"
+        name: "community"
+        description: "Name of the community to delete"
+        required: false
+        schema:
+          $ref: "#/definitions/Community"
+      responses:
+        204:
+          description: "Community was deleted"
+        404:
+          description: "Community missing"
+      x-swagger-router-controller: "community"
 definitions:
   Course:
     type: "object"
     properties:
+      id:
+        type: "integer"
+        description: "The id of the course"
       name:
         type: "string"
         description: "The name of the course"
@@ -232,6 +316,9 @@ definitions:
   Community:
     type: "object"
     properties:
+      id:
+        type: "integer"
+        description: "The id of the community"
       name:
         type: "string"
         description: "The name of the community"
@@ -244,4 +331,3 @@ definitions:
     required:
       - name
       - author
-
