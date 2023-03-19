@@ -2,28 +2,28 @@
 
 var url = require('url');
 
-var courseService = require('../services/communityService');
+var communityService = require('../services/firebase/firebaseService');
 
 module.exports.getAllCommunities = function getAllCommunities (req, res, next) {
-  courseService.getAllCommunities(req.swagger.params, res, next);
+  communityService.getAllCommunities(req.swagger.params, res, next);
 };
 
 module.exports.getCommunitiesById = function getCommunitiesById (req, res, next) {
-  courseService.getCommunitiesById(req.swagger.params, res, next);
+  communityService.getCommunitiesById(req.swagger.params, res, next);
 };
 
 module.exports.patchCommunitiesById = function patchCommunitiesById (req, res, next) {
-  courseService.patchCommunitiesById(req.swagger.params, res, next);
+  communityService.patchCommunitiesById(req.swagger.params, res, next);
 };
 
-module.exports.postCourse = function postCourse (req, res, next) {
-  courseService.postCourse(req.swagger.params, res, next);
+module.exports.postCommunity = function postCommunity (req, res, next) {
+  communityService.postCommunity(req.swagger.params, res, next);
 };
 
 module.exports.putCommunitiesById = function putCommunitiesById (req, res, next) {
-  courseService.putCommunitiesById(req.swagger.params, res, next);
+  communityService.putCommunitiesById(req.swagger.params, res, next);
 };
 
 module.exports.deleteCommunitiesById = function deleteCommunitiesById (req, res, next) {
-  courseService.deleteCommunitiesById(req.swagger.params, res, next);
+  communityService.deleteCommunitiesById(req.swagger.params, res, next);
 };

@@ -1,25 +1,25 @@
 {
   "courses": [
     {
-      "id": "1",
+      "id": "0",
       "name": "Migrando para UX Design",
       "author": "Joao Paulo",
       "description": "O Intensivo de Marketing Digital é um curso completo que ensina empreendedores ou pessoas que buscam qualificação em marketing digital, são vídeos, que ensinam passo a passo, com riqueza de detalhes, como ter resultados na internet.",
-      "imagePath": "https://storage.googleapis.com/nexto/images/course/1/bg.png",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/course/1/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/0/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/0/avatar.png",
       "tags": ["Inovação", "Tecnologia"],
       "duration": 20,
       "publishDate": 1648352435,
-      "price": 0,
+      "price": 200,
       "status": 0
     },
     {
-      "id": "2",
+      "id": "1",
       "name": "TREINOS SÃOMIGUELITO| PARA MULHERES",
       "author": "Miguel Fernandes da Silva Alves",
       "description": "São mais de 200 exercícios além de planilhas de treinamentos elaboradas e divididas por níveis mensalmente. Treinos para serem feitos em casa e na academia com diversas aulas extras de bônus. Quero convidar você para vir comigo nesse projeto que vai mudar nossas vidas!",
-      "imagePath": "https://storage.googleapis.com/nexto/images/course/2/bg.png",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/course/2/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/1/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/1/avatar.png",
       "tags": ["Saúde", "Esportes"],
       "duration": 5,
       "publishDate": 1678634458,
@@ -27,39 +27,52 @@
       "status": 0
     },
     {
-      "id": "3",
+      "id": "2",
       "name": "UX Design | TheStarter",
       "author": "THESTARTER, LDA",
       "description": "Aprende realmente na prática UX Design, através de um acompanhamento personalizado e a construção de projetos práticos. Explora o mundo do UX Design, aprendendo tudo desde os fundamentos básicos da User Experience, Research, até à construção de wireframes e protótipos para testagem com utilizadores.‍Este desafio é indicado para iniciantes, e vai dar-te todas as bases necessárias para começares a tua carreira nesta área tão importante e procurada pelas empresas.",
-      "imagePath": "https://storage.googleapis.com/nexto/images/course/3/bg.png",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/course/3/avatar.png",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/2/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/2/avatar.png",
       "tags": ["Design"],
       "duration": 800,
       "publishDate": 1642000858,
       "price": 0,
+      "status": 0
+    },
+    {
+      "id": "3",
+      "name": "Engenharia de Software - GuiYah",
+      "author": "GuiYah",
+      "description": "O curso de Engenharia de Software se dedica a ensinar o desenvolvimento de softwares e programas computacionais. Os alunos são capacitados a desenhar e testar novos programas, além de treinar a manutenção e revisão destes. Nossos alunos do curso de Engenharia de Software também são apresentados ao universo da criação de aplicativos, jogos e plataformas digitais para atividades educacionais. Eles também aprendem sobre sistemas específicos, como os destinados às áreas médica e bancária. O curso de Engenharia de Software aborda a computação voltada para a especificação, desenvolvimento, manutenção e criação de softwares. Com foco na organização, produtividade e qualidade, nossos alunos aprendem a aplicar",
+      "imagePath": "https://storage.googleapis.com/nexto/images/course/3/bg.png",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/course/3/avatar.png",
+      "tags": ["Tecnologia"],
+      "duration": 400,
+      "publishDate": 1642000858,
+      "price": 14.90,
       "status": 0
     },
     {
       "id": "4",
-      "name": "Course 4",
-      "author": "Nexto",
-      "description": "Curso Nexto",
+      "name": "Curso Engenharia de Software e UML",
+      "author": "Liriane Soares de Araújo",
+      "description": "Curso com 25 vídeos-aula e 1 e-book com todo conteúdo abordando conceitos principais da Engenharia de Software como ciclo de vida, modelos de processos, tipos de sistemas, paradigmas de programação estruturado e orientado a objeto, nove diagramas da UML como Diagrama de Caso de Uso, Diagrama de Classe, Diagrama de Sequência, Diagrama de Objeto, Diagrama de Comunicação, Diagrama de Atividades, Diagrama de Estado, Diagrama de Componentes e Diagrama de Execução, bem como princípios importantes de teste de software, tipos de testes como de unidade, integração, aceitação, de sistema e de usabilidade, além de exercícios propostos.",
       "imagePath": "https://storage.googleapis.com/nexto/images/course/4/bg.png",
       "avatarPath": "https://storage.googleapis.com/nexto/images/course/4/avatar.png",
-      "tags": ["Design"],
-      "duration": 800,
+      "tags": ["Tecnologia"],
+      "duration": 0,
       "publishDate": 1642000858,
-      "price": 0,
+      "price": 199.99,
       "status": 0
     },
     {
       "id": "5",
-      "name": "Course 5",
-      "author": "Course 5",
-      "description": "Curso Nexto",
+      "name": "Curso de Figma com Felipe Santana",
+      "author": "Felipe Santana",
+      "description": "Nesse curso você aprenderá a criar o design de aplicativos do Zero! Vou te ensinar todo o processo da criação de um produto digital seguindo os requerimentos mais atuais do mercado de UI/UX! Compartilho com vocês toda a minha experiência atuando há mais de 15 anos na área, e projetando experiencias para milhões de pessoas no mundo todo!",
       "imagePath": "https://storage.googleapis.com/nexto/images/course/5/bg.png",
       "avatarPath": "https://storage.googleapis.com/nexto/images/course/5/avatar.png",
-      "tags": ["Tecnologia"],
+      "tags": ["Design"],
       "duration": 0,
       "publishDate": 1642000858,
       "price": 0,
@@ -67,25 +80,12 @@
     },
     {
       "id": "6",
-      "name": "Course 6",
-      "author": "Course 6",
+      "name": "Course Nexto",
+      "author": "Nexto",
       "description": "Curso Nexto",
       "imagePath": "https://storage.googleapis.com/nexto/images/course/6/bg.png",
       "avatarPath": "https://storage.googleapis.com/nexto/images/course/6/avatar.png",
-      "tags": ["Artes"],
-      "duration": 0,
-      "publishDate": 1642000858,
-      "price": 0,
-      "status": 0
-    },
-    {
-      "id": "7",
-      "name": "Course 7",
-      "author": "Course 7",
-      "description": "Curso Nexto",
-      "imagePath": "https://storage.googleapis.com/nexto/images/course/7/bg.png",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/course/7/avatar.png",
-      "tags": ["Design"],
+      "tags": ["Tecnologia"],
       "duration": 0,
       "publishDate": 1642000858,
       "price": 0,
@@ -94,53 +94,47 @@
   ],
   "communities": [
     {
-      "id": "1",
+      "id": "0",
       "name": "Nexto",
       "author": "Miguel Gaia",
       "description": "Comunidade da Equipe Nexto",
+      "avatarPath": "https://storage.googleapis.com/nexto/images/community/0/avatar.png"
+    },
+    {
+      "id": "1",
+      "name": "Fórmula Negócio Online",
+      "author": "Alex Vargas",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/1/avatar.png"
     },
     {
       "id": "2",
-      "name": "Fórmula Negócio Online",
-      "author": "Alex Vargas",
+      "name": "UX Pro - A",
+      "author": "UX Pro",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/2/avatar.png"
     },
     {
       "id": "3",
-      "name": "Comunidade 3",
-      "author": "Nexto",
+      "name": "UX Writing - Plurix",
+      "author": "Plurix - Design Estratégico",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/3/avatar.png"
     },
     {
       "id": "4",
-      "name": "Comunidade 4",
-      "author": "Nexto",
+      "name": "Psicologia da UX",
+      "author": "Fábio Pereira",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/4/avatar.png"
     },
     {
       "id": "5",
-      "name": "Comunidade 5",
-      "author": "Nexto",
+      "name": "TREINO CONTROLE 2.0",
+      "author": "Marlon Mattedi",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/5/avatar.png"
     },
     {
       "id": "6",
-      "name": "Comunidade 6",
+      "name": "Comunidade Nexto",
       "author": "Nexto",
       "avatarPath": "https://storage.googleapis.com/nexto/images/community/6/avatar.png"
-    },
-    {
-      "id": "7",
-      "name": "Comunidade 7",
-      "author": "Nexto",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/community/7/avatar.png"
-    },
-    {
-      "id": "8",
-      "name": "Comunidade 8",
-      "author": "Nexto",
-      "avatarPath": "https://storage.googleapis.com/nexto/images/community/8/avatar.png"
     }
   ]
 }

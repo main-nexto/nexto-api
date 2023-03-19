@@ -2,7 +2,7 @@
 
 var url = require('url');
 
-var courseService = require('../services/courseService');
+var courseService = require('../services/firebase/firebaseService');
 
 module.exports.getAllCourses = function getAllCourses (req, res, next) {
   courseService.getAllCourses(req.swagger.params, res, next);
