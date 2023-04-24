@@ -1,10 +1,10 @@
 'use strict';
 var firebase = require('firebase-admin');
-var serviceAccount = require('../../service-account-file.json');
+const serviceAccount = process.env.FIREBASE_ADMIN_SDK_PRIVATE_KEY;
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
-  databaseURL: 'https://nexto-api-default-rtdb.firebaseio.com',
+  databaseURL: process.env.FIREBASE_REALTIME_DATABASE_URL
 });
 
 var db = firebase.database();

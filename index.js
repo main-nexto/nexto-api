@@ -6,8 +6,6 @@ var cors = require('cors');
 var swaggerTools = require('swagger-tools');
 var jsyaml = require('js-yaml');
 var fs = require('fs')
-var config = require('./config/config.js').get(process.env.NODE_ENV);
-var serverconf = require('./config/serverconf');
 
 var app = express();
 
@@ -41,10 +39,12 @@ swaggerTools.initializeMiddleware(swaggerDoc, function (middleware) {
   app.use(express.static(path.join(__dirname, 'public')));
 
   // Start the server
-  const port = config.port;
-  var hostname = serverconf.HostAddress();
+  const port = 8080;
+  var hostname = os.hostname();
   http.createServer(app).listen(port, function () {
-    console.log(`Server-${process.env.NODE_ENV} is running at http://${hostname}:${port}/`);
-    console.log(`Swagger-ui is available on http://${hostname}:${port}/docs`);
+    console.log(`API is running a thttp://localhost:${port} `);
+    console.log(`Swagger-ui is available on http://localhost:${port}/docs`);
   });
 });
+
+
